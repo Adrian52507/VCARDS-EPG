@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrian Cornejo | Corporativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="intro">
+    <img src="assets/img/epglogo.png" id="logo">
+  </div>
+
+  <div class="card">
+
+    <div class="profile-container">
+      <img src="assets/img/perfil.jpg" class="profile-img">
+    </div>
+
+    <h1>Adrian Cornejo</h1>
+    <p>Trainee Tech | Escuela de Posgrado USIL</p>
+
+    <a href="contacto.vcf" class="btn btn-primary">
+      Guardar Contacto
+    </a>
+
+    <a href="https://wa.me/51964825187" class="btn btn-secondary">
+      Contactar por WhatsApp
+    </a>
+  </div>
+  <audio id="clickSound" src="assets/audio/click.mp3" preload="auto"></audio>
+  <script>
+    const sound = document.getElementById("clickSound");
+
+    document.querySelectorAll(".btn").forEach(button => {
+      button.addEventListener("click", () => {
+        sound.currentTime = 0;
+        sound.play();
+      });
+    });
+  </script>
+</body>
+
+</html>
