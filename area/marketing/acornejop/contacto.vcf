@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cornejo;Adrian;;;
+FN:Adrian Cornejo
+ORG:Escuela de Posgrado USIL
+TITLE:Trainee Tech
+TEL;TYPE=CELL:+51964825187
+EMAIL;TYPE=INTERNET:acornejop@usil.edu.pe
+URL:https://posgrado.usil.edu.pe/
+ADR;TYPE=WORK:;;Av. La Fontana 750;La Molina;Lima;;Perú
+PHOTO:https://escueladeposgradousil.vercel.app/assets/img/profiles/asesores/adrian/perfil.jpg
+END:VCARD
