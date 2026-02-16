@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hernández;Gladys;;;
+FN:Gladys Hernández
+ORG:Escuela de Posgrado USIL
+TITLE:Asesora
+TEL;TYPE=CELL:+51996539457
+EMAIL;TYPE=INTERNET:ejemplo@usil.edu.pe
+URL:https://posgrado.usil.edu.pe/
+ADR;TYPE=WORK:;;Av. La Fontana 750;La Molina;Lima;;Perú
+PHOTO:https://escueladeposgradousil.vercel.app/assets/img/profiles/marketing/acornejop/perfil.jpg
+END:VCARD
