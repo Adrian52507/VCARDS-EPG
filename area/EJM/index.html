@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Gladys Hernández | Corporativo</title>
+  <link rel="stylesheet" href="../../../assets/css/main.css">
+</head> 
+
+<body>
+
+  <div id="intro">
+    <img src="../../../assets/img/epglogo.png" id="logo">
+  </div>
+
+  <div class="card">
+
+    <div class="profile-container">
+      <img src="../../../assets/img/profiles/marketing/acornejop/perfil.jpg" class="profile-img">
+    </div>
+
+    <h1>Gladys Hernández</h1>
+    <p>Asesora | Escuela de Posgrado USIL</p>
+
+    <a href="../contacto.vcf" class="btn btn-primary">
+      Guardar Contacto
+    </a>
+
+    <a href="https://wa.me/51996539457" class="btn btn-secondary">
+      Contactar por WhatsApp
+    </a>
+  </div>
+  <audio id="clickSound" src="../../../assets/audio/click.mp3" preload="auto"></audio>
+  <script>
+    const sound = document.getElementById("clickSound");
+
+    document.querySelectorAll(".btn").forEach(button => {
+      button.addEventListener("click", () => {
+        sound.currentTime = 0;
+        sound.play();
+      });
+    });
+  </script>
+</body>
+
+</html>
